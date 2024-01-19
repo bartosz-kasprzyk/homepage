@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { ReactComponent as Brightness } from "./Brightness.svg";
 
 export const SwitchSection = styled.div`
@@ -18,19 +18,30 @@ export const SwitchText = styled.span`
 `;
 
 export const SwitchButton = styled.button`
+    cursor: pointer;
+    width: 48px;
+    padding: 3px;
+    background-color: ${({ theme }) => theme.color.gray};
+    border: 1px solid ${({ theme }) => theme.color.slateGray};
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+`;
+
+export const IconBackground = styled.div`
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
-    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: ${({ theme }) => theme.color.slateGray};
 
     ${({ moveToRight }) =>
         moveToRight &&
         css`
       transform: translateX(20px);
     `}
-`;
-
-export const IconBackground = styled.div`
-    border-radius: 50%;
-    background: ${({ theme }) => theme.color.slateGray};
 `;
 
 export const Icon = styled(Brightness)`
