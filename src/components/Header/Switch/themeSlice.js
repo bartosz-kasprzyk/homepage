@@ -5,6 +5,7 @@ const themeSlice = createSlice({
     name: 'theme',
     initialState: {
         theme: getThemeFromLocalStorage(),
+        isDarkMode: false,
     },
     reducers: {
         toggleTheme: (state) => {
@@ -15,6 +16,8 @@ const themeSlice = createSlice({
 
 export const { toggleTheme } = themeSlice.actions;
 
-export const selectIsDarkMode = state => state.theme.theme;
+const selectThemeState = state => state.theme;
+
+export const selectIsDarkMode = state => selectThemeState(state).theme;
 
 export default themeSlice.reducer;

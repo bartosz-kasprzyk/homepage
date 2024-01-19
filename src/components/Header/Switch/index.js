@@ -4,7 +4,7 @@ import { toggleTheme, selectIsDarkMode } from "./themeSlice";
 
 const Switch = () => {
     const isDarkMode = useSelector(selectIsDarkMode);
-    const dispatch = useDispatch()
+    const dispatch = useDispatch();
     return (
         <SwitchSection>
             <SwitchText>
