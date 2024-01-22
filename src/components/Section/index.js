@@ -10,6 +10,7 @@ const Section = ({ title, body }) => (
                 {body.map((skill) => (
                     <ListItem key={skill}>
                         <Bullet />
+
                         <Content>
                             {skill}
                         </Content>
