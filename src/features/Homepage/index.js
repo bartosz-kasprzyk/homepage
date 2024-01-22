@@ -26,8 +26,8 @@ const PersonalHomepage = () => (
             <Tile
                 title="Homepage"
                 description="Coming soon"
-                demo="https://link.demo.com"
-                code="https://link.code.com"
+                demo="https://bartek-kasprzyk.github.io/homepage/"
+                code="https://github.com/bartek-kasprzyk/homepage"
             />
 
             <Tile
