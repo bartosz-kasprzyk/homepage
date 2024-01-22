@@ -9,7 +9,7 @@ const store = configureStore({
     reducer: {
         theme: themeReducer,
     },
-    middleware: [sagaMiddleware],
+    middleware: () => [sagaMiddleware],
 });
 
 sagaMiddleware.run(rootSaga);
