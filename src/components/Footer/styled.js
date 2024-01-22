@@ -10,18 +10,18 @@ export const FooterIntro = styled.p`
     font-weight: 700;
     padding-bottom: 24px;
     margin: 0;
-    color: ${({ theme }) => theme.color.slateGray};
+    color: ${({ theme }) => theme.text};
 `;
 
 export const FooterContact = styled.a`
     text-decoration: none;
     font-size: 32px;
     font-weight: 900;
-    color: ${({ theme }) => theme.color.black.dark};
+    color: ${({ theme }) => theme.header};
     transition: color 0.3s;
 
     &:hover {
-        color: ${({ theme }) => theme.color.scienceBlue};
+        color: ${({ theme }) => theme.accent.dark};
     }
 `;
 
@@ -30,7 +30,7 @@ export const FooterDescription = styled.p`
     font-weight: 400;
     padding: 24px 0 56px 0; 
     margin: 0;
-    color: ${({ theme }) => theme.color.black.dark};
+    color: ${({ theme }) => theme.header};
 `;
 
 export const FooterIcons = styled.div`
@@ -50,10 +50,10 @@ export const FooterIcon = (Icon) => styled(Icon)`
 `;
 
 export const FooterLink = styled.a`
-    color: ${({ theme }) => theme.color.black.dark};
+    color: ${({ theme }) => theme.icon};
     transition: color 0.3s;
 
     &:hover {
-        color: ${({ theme }) => theme.color.scienceBlue};
+        color: ${({ theme }) => theme.accent.dark};
     }
 `;

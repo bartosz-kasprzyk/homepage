@@ -17,9 +17,11 @@ export const PortfolioIcon = styled(Github)`
 export const PortfolioTitle = styled.div`
     font-size: 30px;
     font-weight: 900;
+    color: ${({ theme }) => theme.header};
 `;
 
 export const PortfolioSubtitle = styled.div`
     font-size: 20px;
     font-weight: 400;
+    color: ${({ theme }) => theme.header};
 `;

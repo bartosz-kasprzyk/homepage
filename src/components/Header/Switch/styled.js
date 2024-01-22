@@ -15,14 +15,15 @@ export const SwitchSection = styled.div`
 export const SwitchText = styled.span`
     font-size: 12px;
     font-weight: 700;
+    color: ${({ theme }) => theme.text};
 `;
 
 export const SwitchButton = styled.button`
     cursor: pointer;
     width: 48px;
     padding: 3px;
-    background-color: ${({ theme }) => theme.color.gray};
-    border: 1px solid ${({ theme }) => theme.color.slateGray};
+    background-color: ${({ theme }) => theme.switch.buttonBackground};
+    border: 1px solid ${({ theme }) => theme.switch.iconBackground};
     border-radius: 50px;
     display: flex;
     align-items: center;
@@ -35,7 +36,8 @@ export const IconBackground = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    background: ${({ theme }) => theme.color.slateGray};
+    background: ${({ theme }) => theme.switch.iconBackground};
+    transition: transform 0.3s;
 
     ${({ moveToRight }) =>
         moveToRight &&
@@ -45,5 +47,5 @@ export const IconBackground = styled.div`
 `;
 
 export const Icon = styled(Brightness)`
-    color: ${({ theme }) => theme.color.white.dark};
+    color: ${({ theme }) => theme.switch.iconColor};
 `;
