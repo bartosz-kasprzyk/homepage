@@ -5,4 +5,9 @@ export const PortfolioWrapper = styled.div`
     grid-template-columns: 1fr 1fr;
     grid-gap: 32px;
     padding-top: 24px;
+
+    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) {
+        grid-template-columns: 1fr;
+        grid-gap: 16px;
+    }
 `;

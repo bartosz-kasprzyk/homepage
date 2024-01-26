@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 import { ReactComponent as Brightness } from "./Brightness.svg";
 
 export const SwitchSection = styled.div`
-    width: 159px;
+    max-width: 159px;
     display: flex;
     gap: 12px;
     justify-content: center;
@@ -16,6 +16,10 @@ export const SwitchText = styled.span`
     font-size: 12px;
     font-weight: 700;
     color: ${({ theme }) => theme.text};
+
+    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
+       display: none;
+    }
 `;
 
 export const SwitchButton = styled.button`

@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const FooterSection = styled.section`
     max-width: 691px;
     padding-top: 120px;
+
+    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) { 
+        padding-top: 48px;
+    }
 `;
 
 export const FooterIntro = styled.p`
@@ -11,6 +15,10 @@ export const FooterIntro = styled.p`
     padding-bottom: 24px;
     margin: 0;
     color: ${({ theme }) => theme.text};
+
+    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) { 
+        padding-bottom: 12px;
+    }
 `;
 
 export const FooterContact = styled.a`
@@ -23,6 +31,10 @@ export const FooterContact = styled.a`
     &:hover {
         color: ${({ theme }) => theme.accent.dark};
     }
+
+    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) { 
+        font-size: 18px;
+    }
 `;
 
 export const FooterDescription = styled.p`
@@ -31,21 +43,28 @@ export const FooterDescription = styled.p`
     padding: 24px 0 56px 0; 
     margin: 0;
     color: ${({ theme }) => theme.header};
+    line-height: 25px;
+
+    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) { 
+        font-size: 14px;
+        line-height: 17px;
+        padding: 12px 0 40px 0; 
+    }
 `;
 
 export const FooterIcons = styled.div`
     display: flex;
     gap: 24px;
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.mobile}) { 
+    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) { 
         gap: 16px;
     }
 `;
 
 export const FooterIcon = (Icon) => styled(Icon)`
-    @media(max-width: ${({ theme }) => theme.breakpoint.mobile}) {
-        width: 20px;
-        height: 20px;
+    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) {
+        width: 32px;
+        height: 32px;
     }
 `;
 

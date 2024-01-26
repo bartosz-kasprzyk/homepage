@@ -12,17 +12,29 @@ export const TileWrapper = styled.div`
     &:hover {
         border: 6px solid ${({ theme }) => theme.highlight};
     }
+
+    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) { 
+        padding: 24px;
+    }
 `
 
 export const Title = styled.div`
     font-size: 24px;
     font-weight: 700;
     color: ${({ theme }) => theme.projectHeader};
+
+    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) { 
+        font-size: 16px;
+    }
 `;
 
 export const Body = styled.div`
     font-size: 18px;
     font-weight: 400;
+
+    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) { 
+        font-size: 14px;
+    }
 `;
 
 export const Description = styled.div`
@@ -38,4 +50,8 @@ export const StyledLink = styled.a`
     font-size: 18px;
     font-weight: 400;
     color: ${({ theme }) => theme.accent.dark};
+
+    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) { 
+        font-size: 14px;
+    }
 `;
