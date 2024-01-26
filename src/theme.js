@@ -21,7 +21,8 @@ export const theme = {
         iron: "#D1D5DA4D",
     },
     breakpoint: {
-        mobile: "767px",
+        tablet: "767px",
+        phone: "480px",
     }
 };
 
