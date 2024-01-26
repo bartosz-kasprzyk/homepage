@@ -17,7 +17,7 @@ const Header = () => (
             </HeaderName>
 
             <HeaderDescription>
-                I'm a passionate...
+                I’m a passionate Frontend Developer in love with React. I am looking for my first job and programming challenges. I want to explore new technologies, improve my skills and gain knowledge among other programmers.
             </HeaderDescription>
 
             <HeaderButton href="mailto:bartosz.kasprzyk58@gmail.com" title="My email">
