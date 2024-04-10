@@ -1,14 +1,13 @@
-import styled from "styled-components";
-import { ReactComponent as Ellipse } from "./Ellipse.svg";
+import styled, { css } from "styled-components";
+import { ReactComponent as Ellipse } from "../../images/Ellipse.svg";
 
 export const Segment = styled.section`
     background: ${({ theme }) => theme.section};
     padding: 32px;
     margin: 72px auto;
-    box-shadow: 0px 16px 58px 0px ${({ theme }) => theme.color.violet.one};
-    box-shadow: 0px -2px 50px 0px ${({ theme }) => theme.color.violet.two};
+    box-shadow: 0px 16px 58px 0px #090A3308;
+    box-shadow: 0px -2px 50px 0px #090A3305;
     border-radius: 4px;
-
     @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) {
         padding: 16px;
         margin: 48px auto 50px auto;
@@ -29,6 +28,10 @@ export const Header = styled.header`
 
 export const Body = styled.div`
     border-top: 1px solid ${({ theme }) => theme.color.gray};
+
+    ${({ skills }) => skills && css`
+        border-top: 1px solid ${({ theme }) => theme.color.iron};
+    `}
 `;
 
 export const StyledList = styled.ul`

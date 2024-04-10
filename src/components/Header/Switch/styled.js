@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import { ReactComponent as Brightness } from "./Brightness.svg";
+import { ReactComponent as Brightness } from "../../../images/Brightness.svg";
 
 export const SwitchSection = styled.div`
     max-width: 159px;

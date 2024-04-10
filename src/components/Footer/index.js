@@ -1,4 +1,4 @@
-import { details } from "./icons/iconDetails";
+import { details } from "./iconDetails";
 import { FooterContact, FooterDescription, FooterIcons, FooterIntro, FooterLink, FooterSection } from "./styled";
 
 const Footer = () => (

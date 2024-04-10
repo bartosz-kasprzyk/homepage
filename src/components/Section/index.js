@@ -1,11 +1,11 @@
 import { Segment, Header, Body, StyledList, ListItem, Bullet, Content } from "./styled"
 
-const Section = ({ title, body }) => (
+const Section = ({ title, body, skills }) => (
     <Segment>
         <Header>
             {title}
         </Header>
-        <Body>
+        <Body skills={skills}>
             <StyledList>
                 {body.map((skill) => (
                     <ListItem key={skill}>

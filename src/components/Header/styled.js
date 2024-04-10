@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as Message } from "./Message.svg";
+import { ReactComponent as Message } from "../../images/Message.svg";
 
 export const HeaderSection = styled.section`
     max-width: 1216px;
@@ -95,13 +95,20 @@ export const HeaderButton = styled.a`
     align-items: center;
     justify-content: left;
     border-radius: 4px;
-    outline: 2px solid transparent;
+    border: 1px solid #D1D5DA4D;
     color: ${({ theme }) => theme.color.white.light};
     background-color: ${({ theme }) => theme.accent.dark};
-    transition: outline 0.3s;
 
     &:hover {
         outline: 2px solid ${({ theme }) => theme.highlight};
+    }
+
+    &:focus {
+        outline: 2px solid ${({ theme }) => theme.highlight};
+    }
+
+    &:active {
+        box-shadow: 0px 2px 0px 0px #14462033 inset;
     }
 
     @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) { 
