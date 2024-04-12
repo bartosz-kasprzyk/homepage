@@ -7,7 +7,7 @@ export const HeaderSection = styled.section`
     gap: 66px;
     position: relative;
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) {
+    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) {
         flex-direction: column;
         gap: 0;
     }
@@ -15,15 +15,13 @@ export const HeaderSection = styled.section`
 
 export const HeaderImage = styled.img`
     border-radius: 50%;
-    width: 384px;
-    height: 384px;
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) { 
+    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
         width: 256px;
         height: 256px;
     }
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
+    @media(max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) { 
         width: 128px;
         height: 128px;
     }
@@ -32,11 +30,11 @@ export const HeaderImage = styled.img`
 export const HeaderContent = styled.div`
     padding-top: 64px;
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) {
+    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) {
         padding-top: 32px;
     }
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
+    @media(max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) { 
         padding-top: 16px;
     }
 `;
@@ -54,12 +52,12 @@ export const HeaderName = styled.div`
     font-weight: 900;
     color: ${({ theme }) => theme.header};
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) { 
+    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
         font-size: 30px;
         padding: 8px 0;
     }
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
+    @media(max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) { 
         font-size: 22px;
         padding: 8px 0;
     }
@@ -72,13 +70,13 @@ export const HeaderDescription = styled.div`
     color: ${({ theme }) => theme.text};
     line-height: 28px;
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) { 
+    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
         font-size: 18px;
         line-height: 26px;
         padding: 8px 0 24px 0;
     }
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
+    @media(max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) { 
         font-size: 17px;
         line-height: 24px;
     }
@@ -98,35 +96,33 @@ export const HeaderButton = styled.a`
     border: 1px solid #D1D5DA4D;
     color: ${({ theme }) => theme.color.white.light};
     background-color: ${({ theme }) => theme.accent.dark};
+    outline: 3px solid transparent;
+    transition: outline 0.3s;
 
     &:hover {
-        outline: 2px solid ${({ theme }) => theme.highlight};
-    }
-
-    &:focus {
-        outline: 2px solid ${({ theme }) => theme.highlight};
+        outline: 3px solid ${({ theme }) => theme.highlight};
     }
 
     &:active {
         box-shadow: 0px 2px 0px 0px #14462033 inset;
     }
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) { 
+    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
         width: 146px;
     }
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
+    @media(max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) { 
         width: 138px;
     }
 `;
 
 export const HeaderButtonIcon = styled(Message)`
-    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) {
+    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) {
         width: 22px;
         height: 22px;
     }
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) {
+    @media(max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
         width: 20px;
         height: 20px;
     }
@@ -135,7 +131,7 @@ export const HeaderButtonIcon = styled(Message)`
 export const HeaderButtonText = styled.div`
     font-size: 20px;
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) { 
+    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
         font-size: 18px;
     }
 `;

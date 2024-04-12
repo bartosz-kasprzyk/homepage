@@ -5,7 +5,7 @@ import Switch from "./Switch";
 const Header = () => (
     <HeaderSection>
         <Switch />
-        <HeaderImage src={pic} alt="" />
+        <HeaderImage width="384" height="384" src={pic} alt="" />
 
         <HeaderContent>
             <HeaderIntro>
