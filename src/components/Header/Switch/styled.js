@@ -17,7 +17,7 @@ export const SwitchText = styled.span`
     font-weight: 700;
     color: ${({ theme }) => theme.text};
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
+    @media(max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) { 
        display: none;
     }
 `;

@@ -30,7 +30,7 @@ export const StyledSpinner = styled(Spinner)`
     align-self: center;
     justify-self: center;
 
-    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+    @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
       width: 35px;
       height: 35px;
       margin: 24px;

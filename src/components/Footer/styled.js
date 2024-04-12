@@ -4,7 +4,7 @@ export const FooterSection = styled.section`
     max-width: 691px;
     padding-top: 120px;
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) { 
+    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
         padding-top: 48px;
     }
 `;
@@ -16,7 +16,7 @@ export const FooterIntro = styled.p`
     margin: 0;
     color: ${({ theme }) => theme.text};
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) { 
+    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
         padding-bottom: 12px;
     }
 `;
@@ -32,7 +32,7 @@ export const FooterContact = styled.a`
         color: ${({ theme }) => theme.accent.dark};
     }
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) { 
+    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
         font-size: 18px;
     }
 `;
@@ -45,7 +45,7 @@ export const FooterDescription = styled.p`
     color: ${({ theme }) => theme.header};
     line-height: 25px;
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) { 
+    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
         font-size: 14px;
         line-height: 17px;
         padding: 12px 0 40px 0; 
@@ -56,13 +56,13 @@ export const FooterIcons = styled.div`
     display: flex;
     gap: 24px;
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) { 
+    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
         gap: 16px;
     }
 `;
 
 export const FooterIcon = (Icon) => styled(Icon)`
-    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) {
+    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) {
         width: 32px;
         height: 32px;
     }

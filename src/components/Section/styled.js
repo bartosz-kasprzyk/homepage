@@ -8,7 +8,9 @@ export const Segment = styled.section`
     box-shadow: 0px 16px 58px 0px #090A3308;
     box-shadow: 0px -2px 50px 0px #090A3305;
     border-radius: 4px;
-    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) {
+    transition: 0.3s;
+
+    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) {
         padding: 16px;
         margin: 48px auto 50px auto;
     }
@@ -20,7 +22,7 @@ export const Header = styled.header`
     font-weight: 900;
     color: ${({ theme }) => theme.header};
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) { 
+    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
         font-size: 18px;
         padding-bottom: 12px;
     }
@@ -45,13 +47,13 @@ export const StyledList = styled.ul`
     padding-top: 32px;
     line-height: 25px;
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) {
+    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) {
         grid-template-columns: auto auto;
         padding-top: 28px;
         line-height: 21px;
     }
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) {
+    @media(max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
         grid-template-columns: auto;
         padding-top: 25px;
         line-height: 17px;
@@ -65,7 +67,7 @@ export const ListItem = styled.li`
 export const Bullet = styled(Ellipse)`
     color: ${({ theme }) => theme.accent.dark};
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) {
+    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) {
         width: 6px;
         height: 6px;
     }
@@ -77,7 +79,7 @@ export const Content = styled.span`
     font-weight: 400;
     color: ${({ theme }) => theme.text};
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) { 
+    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
         font-size: 14px;
         padding-left: 8px;
     }
