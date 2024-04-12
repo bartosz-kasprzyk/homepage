@@ -20,11 +20,12 @@ export const theme = {
         slateGray: "#6E7E91",
         doveGray: "#6C6C6C",
         iron: "#D1D5DA4D",
-        
+
     },
     breakpoint: {
-        tablet: "767px",
-        phone: "480px",
+        tablet: "990px",
+        phone: "767px",
+        phonePortrait: "480px",
     }
 };
 
