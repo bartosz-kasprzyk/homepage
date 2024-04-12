@@ -7,13 +7,13 @@ export const TileWrapper = styled.div`
     box-shadow: 0px -2px 50px 0px #090A3305;
     border: 6px solid ${({ theme }) => theme.color.iron};
     border-radius: 4px;
-    transition: border 0.3s;
+    transition: 0.3s;
 
     &:hover {
         border: 6px solid ${({ theme }) => theme.projectHighlight};
     }
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) { 
+    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
         padding: 24px;
     }
 `
@@ -23,7 +23,7 @@ export const Title = styled.div`
     font-weight: 700;
     color: ${({ theme }) => theme.projectHeader};
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) { 
+    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
         font-size: 16px;
     }
 `;
@@ -32,7 +32,7 @@ export const Body = styled.div`
     font-size: 18px;
     font-weight: 400;
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) { 
+    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
         font-size: 14px;
     }
 `;
@@ -54,7 +54,7 @@ export const Text = styled.p`
     margin: 0 8px 0 0;
     align-self: baseline;
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) { 
+    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
         font-size: 14px;
     }
 `;
@@ -65,7 +65,7 @@ export const StyledLink = styled.a`
     color: ${({ theme }) => theme.accent.dark};
     align-self: baseline;
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) { 
+    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
         font-size: 14px;
     }
 `;
