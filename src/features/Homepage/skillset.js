@@ -22,11 +22,12 @@ export const mySkills = [
     "Redux-Saga",
     "Git",
     "CSS Flexbox",
+    "TypeScript",
 ];
 
 export const myFutureSkills = [
-    "TypeScript",
     "Node.js",
     "React Context",
     "JS classes",
+    "Cypress",
 ];
