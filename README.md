@@ -1,4 +1,9 @@
-demo: https://bartek-kasprzyk.github.io/homepage/
+![preview](/public/drawing.png)
+
+# Bartosz Kasprzyk
+Frontend Developer
+
+https://bartek-kasprzyk.github.io/homepage/
 
 # Getting Started with Create React App
 
