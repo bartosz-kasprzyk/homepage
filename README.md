@@ -1,4 +1,7 @@
-![preview](/public/drawing.png)
+<p align="center">
+  <img width=300px height=300px src="/public/drawing.png" />
+</p>
+
 
 # Bartosz Kasprzyk
 Frontend Developer
