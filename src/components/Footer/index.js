@@ -12,7 +12,8 @@ const Footer = () => (
         </FooterContact>
 
         <FooterDescription>
-            I’m always open to new projects whenever I have the time. If you have a website, dashboard or mobile app in mind and need some help to make your ideas come to life, feel free to contact me.
+            I'm always ready to take on new projects whenever I can spare the time. Whether you're envisioning a website, dashboard, or mobile app and could use some assistance bringing your ideas to fruition, feel free to reach out to me. 🤙
+
         </FooterDescription>
 
         < FooterIcons >
