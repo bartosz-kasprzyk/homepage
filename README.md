@@ -4,9 +4,11 @@
 
 
 # Bartosz Kasprzyk
-Frontend Developer
+**𝔉𝔯𝔬𝔫𝔱𝔢𝔫𝔡 𝔇𝔢𝔳𝔢𝔩𝔬𝔭𝔢𝔯**
 
-https://bartek-kasprzyk.github.io/homepage/
+I specialize in bringing designs to life on the web, ensuring they’re not only functional but also a joy to interact with. Let's create something awesome together!
+
+✨ **Explore my portfolio and discover the projects I'm passionate about by visiting my [homepage](https://bartek-kasprzyk.github.io/homepage/)!**
 
 ## Technologies & tools
 
@@ -31,3 +33,5 @@ https://bartek-kasprzyk.github.io/homepage/
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/yourusername)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yourusername)
+
+
