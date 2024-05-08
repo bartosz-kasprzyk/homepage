@@ -29,9 +29,9 @@ I specialize in bringing designs to life on the web, ensuring they’re not only
 
 ## My socials
 
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2.svg?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/yourusername)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/yourusername)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yourusername)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2.svg?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/bartek.kasprzyk.967)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bartek-kasprzyk)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/delta.boye/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://pl.linkedin.com/bkasprzyk)
 
 
