@@ -11,7 +11,8 @@ export const theme = {
         gray: "#E5E5E5",
         scienceBlue: {
             regular: "#0366D6",
-            transparent: "#0366D680",
+            semitransparent: "#0366D680",
+            transparent: "#0366D633",
         },
         dodgerBlue: "#2188FF",
         lightBlue: "#4498F8",
@@ -43,7 +44,7 @@ export const lightTheme = {
     icon: theme.color.black.dark,
     loading: theme.color.iron,
     highlight: theme.color.veryLightBlue,
-    projectHighlight: theme.color.veryLightBlue,
+    projectHighlight: theme.color.scienceBlue.transparent,
     switch: {
         iconColor: theme.color.white.light,
         iconBackground: theme.color.slateGray,
@@ -65,7 +66,7 @@ export const darkTheme = {
     icon: theme.color.white.light,
     loading: theme.color.black.light,
     highlight: theme.color.iron,
-    projectHighlight: theme.color.scienceBlue.transparent,
+    projectHighlight: theme.color.scienceBlue.semitransparent,
     switch: {
         iconColor: theme.color.black.dark,
         iconBackground: theme.color.white.light,
