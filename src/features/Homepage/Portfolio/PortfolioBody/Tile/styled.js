@@ -45,13 +45,14 @@ export const Description = styled.div`
 export const Links = styled.div`
     display: grid;
     grid-template-columns: auto 1fr;
+    grid-gap: 8px;
     color: ${({ theme }) => theme.text};
 `;
 
 export const Text = styled.p`
     font-size: 18px;
     font-weight: 400;
-    margin: 0 8px 0 0;
+    margin: 0;
     align-self: baseline;
 
     @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
@@ -64,6 +65,8 @@ export const StyledLink = styled.a`
     font-weight: 400;
     color: ${({ theme }) => theme.accent.dark};
     align-self: baseline;
+    text-decoration: none;
+    border-bottom: 1px solid ${({ theme }) => theme.projectHighlight};
 
     @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
         font-size: 14px;

@@ -11,8 +11,8 @@ const Tile = ({ title, description, demo, code }) => (
                 {description}
             </Description>
             <Links>
-                <Text>Demo:</Text> <StyledLink href={demo} target="_blank">{demo}</StyledLink>
-                <Text>Code:</Text> <StyledLink href={code} target="_blank">{code}</StyledLink>
+                <Text>Demo:</Text> <div><StyledLink href={demo} target="_blank">{demo}</StyledLink></div>
+                <Text>Code:</Text> <div><StyledLink href={code} target="_blank">{code}</StyledLink></div>
             </Links>
         </Body>
     </TileWrapper >
