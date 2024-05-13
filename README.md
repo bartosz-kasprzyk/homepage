@@ -12,8 +12,9 @@
 </div>
 
 
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=bartek-kasprzyk&label=Profile_views&color=A630B0&style=plastic&style=for-the-badge" alt="views-bartek-kasprzyk" /> </p>
-
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=bartek-kasprzyk&label=Profile_views&color=A630B0&style=plastic&style=for-the-badge" alt="views-bartek-kasprzyk" />
+</p>
 
 <div align="center">
     <h1>𝔉𝔯𝔬𝔫𝔱𝔢𝔫𝔡 𝔇𝔢𝔳𝔢𝔩𝔬𝔭𝔢𝔯</h1>
