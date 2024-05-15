@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 
 export const useRepositoryData = () => {
 
-    const url = "https://api.github.com/users/bartek-kasprzyk/repos";
+    const url = "https://api.github.com/users/bartosz-kasprzyk/repos";
 
     const [repositoryData, setRepositoryData] = useState({
         data: [],
@@ -14,8 +14,9 @@ export const useRepositoryData = () => {
         const getRepositoryData = async () => {
             try {
                 const response = await axios.get(url);
+                const filteredData = response.data.filter(item => item.name !== "bartosz-kasprzyk");
                 setRepositoryData({
-                    data: response.data,
+                    data: filteredData,
                     status: "success",
                 });
             } catch (error) {
