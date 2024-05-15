@@ -8,7 +8,7 @@ export const details = [
     {
         Icon: FooterIcon(Github_black),
         name: 'GitHub',
-        url: 'https://github.com/bartek-kasprzyk',
+        url: 'https://github.com/bartosz-kasprzyk',
     },
     {
         Icon: FooterIcon(Facebook_black),
