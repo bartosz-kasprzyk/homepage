@@ -2,13 +2,29 @@
   <img width=300px src="/public/drawing.png" />
 </p>
 
+<div align="center">
 
-# Bartosz Kasprzyk
-**𝔉𝔯𝔬𝔫𝔱𝔢𝔫𝔡 𝔇𝔢𝔳𝔢𝔩𝔬𝔭𝔢𝔯**
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2.svg?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/bartek.kasprzyk.967)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bartosz-kasprzyk)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/delta.boye/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://pl.linkedin.com/bkasprzyk)
 
-I specialize in bringing designs to life on the web, ensuring they’re not only functional but also a joy to interact with. Let's create something awesome together!
+</div>
 
-✨ **Explore my portfolio and discover the projects I'm passionate about by visiting my [homepage](https://bartek-kasprzyk.github.io/homepage/)!**
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=bartosz-kasprzyk&label=Profile_views&color=A630B0&style=plastic&style=for-the-badge" alt="views-bartosz-kasprzyk" />
+</p>
+
+<div align="center">
+    <h1>𝔉𝔯𝔬𝔫𝔱𝔢𝔫𝔡 𝔇𝔢𝔳𝔢𝔩𝔬𝔭𝔢𝔯</h1>
+</div>
+
+Hi there 👋
+
+I’m Bartosz Kasprzyk, your go-to **Code Artist** 🖌️💻. I specialize in bringing designs to life on the web, ensuring they’re not only functional but also a joy to interact with. Let's create something awesome together!
+
+✨ **Explore my portfolio and discover the projects I'm passionate about by visiting my [homepage](https://bartosz-kasprzyk.github.io/homepage/)!**
 
 ## Technologies & tools
 
@@ -26,12 +42,5 @@ I specialize in bringing designs to life on the web, ensuring they’re not only
 [![Styled Components](https://img.shields.io/badge/Styled_Components-DB7093.svg?style=for-the-badge&logo=styled-components&logoColor=white)](https://styled-components.com)
 [![Trello](https://img.shields.io/badge/Trello-0079BF.svg?style=for-the-badge&logo=trello&logoColor=white)](https://trello.com)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
-
-## My socials
-
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2.svg?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/bartek.kasprzyk.967)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bartek-kasprzyk)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/delta.boye/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://pl.linkedin.com/bkasprzyk)
 
 
