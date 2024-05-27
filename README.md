@@ -1,5 +1,7 @@
 <p align="center">
-  <img width=300px src="/public/drawing.png" />
+  <a href="https://bartosz-kasprzyk.github.io/homepage/">
+    <img width="300px" src="/public/drawing.png" />
+  </a>
 </p>
 
 <div align="center">
