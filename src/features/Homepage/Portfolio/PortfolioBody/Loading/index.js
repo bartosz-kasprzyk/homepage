@@ -5,6 +5,7 @@ const Loading = () => (
         <LoadingText>
             Please wait, projects are being loaded...
         </LoadingText>
+
         <StyledSpinner />
     </Wrapper>
 );

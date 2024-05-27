@@ -43,10 +43,8 @@ export const IconBackground = styled.div`
     background: ${({ theme }) => theme.switch.iconBackground};
     transition: transform 0.3s;
 
-    ${({ moveToRight }) =>
-        moveToRight &&
-        css`
-      transform: translateX(20px);
+    ${({ moveToRight }) => moveToRight && css`
+        transform: translateX(20px);
     `}
 `;
 

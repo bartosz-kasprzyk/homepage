@@ -4,9 +4,11 @@ import { PortfolioIcon, PortfolioSubtitle, PortfolioTitle, Wrapper } from "./sty
 const PortfolioHeader = () => (
     <Wrapper>
         <PortfolioIcon />
+
         <PortfolioTitle>
             Portfolio
         </PortfolioTitle>
+
         <PortfolioSubtitle>
             My recent projects
         </PortfolioSubtitle>
