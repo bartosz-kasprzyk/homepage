@@ -2,7 +2,7 @@ import { Body, Description, Links, StyledLink, Text, TileWrapper, Title } from "
 
 const Tile = ({ title, description, demo, code }) => (
     <TileWrapper>
-        <Title>
+        <Title href={demo} target="_blank">
             {title}
         </Title>
 

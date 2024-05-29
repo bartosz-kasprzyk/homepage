@@ -18,10 +18,11 @@ export const TileWrapper = styled.div`
     }
 `
 
-export const Title = styled.div`
+export const Title = styled.a`
     font-size: 24px;
     font-weight: 700;
     color: ${({ theme }) => theme.projectHeader};
+    text-decoration: none;
 
     @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
         font-size: 16px;
