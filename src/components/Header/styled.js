@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { ReactComponent as Message } from "../../images/Message.svg";
 
 export const HeaderSection = styled.section`
@@ -13,8 +13,18 @@ export const HeaderSection = styled.section`
     }
 `;
 
+const fadeIn = keyframes`
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+`;
+
 export const HeaderImage = styled.img`
     border-radius: 50%;
+    animation: ${fadeIn} 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 
     @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
         width: 256px;
