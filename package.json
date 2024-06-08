@@ -2,7 +2,7 @@
   "name": "homepage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bartek-kasprzyk.github.io/homepage/",
+  "homepage": "https://bartosz-kasprzyk.github.io/homepage/",
   "dependencies": {
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
