@@ -18,7 +18,7 @@ export const details = [
     {
         Icon: FooterIcon(Linkedin_black),
         name: 'LinkedIn',
-        url: 'https://pl.linkedin.com/bkasprzyk',
+        url: 'https://www.linkedin.com/in/bartosz-kasprzyk/',
     },
     {
         Icon: FooterIcon(Instagram_black),
