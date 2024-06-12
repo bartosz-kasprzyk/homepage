@@ -28,7 +28,7 @@ I’m Bartek, a **React Frontend Developer** 💻. I specialize in bringing desi
 
 This [homepage](https://bartosz-kasprzyk.github.io/homepage/) is a showcase of my skills and projects, dynamically updated with data fetched directly from my GitHub using an API.
 
-✨ Explore my portfolio and discover the projects I'm passionate about!
+✨ **Explore my portfolio and discover the projects I'm passionate about!**
 
 ## Technologies & tools
 
