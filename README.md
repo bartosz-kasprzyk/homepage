@@ -30,7 +30,11 @@ This [homepage](https://bartosz-kasprzyk.github.io/homepage/) is a showcase of m
 
 ✨ **Explore my portfolio and discover the projects I'm passionate about!**
 
-## Technologies & tools
+## Preview 🎬
+
+![preview](/public/homepage.gif)
+
+## Technologies & tools 🛠️
 
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![Create React App](https://img.shields.io/badge/Create_React_App-09D3AC.svg?style=for-the-badge&logo=create-react-app&logoColor=white)](https://create-react-app.dev)
