@@ -24,9 +24,11 @@
 
 Hi there 👋
 
-I’m Bartosz Kasprzyk, your go-to **Code Artist** 🖌️💻. I specialize in bringing designs to life on the web, ensuring they’re not only functional but also a joy to interact with. Let's create something awesome together!
+I’m Bartek, a **React Frontend Developer** 💻. I specialize in bringing designs to life on the web, ensuring they’re not only functional but also a joy to interact with.
 
-✨ **Explore my portfolio and discover the projects I'm passionate about by visiting my [homepage](https://bartosz-kasprzyk.github.io/homepage/)!**
+This [homepage](https://bartosz-kasprzyk.github.io/homepage/) is a showcase of my skills and projects, dynamically updated with data fetched directly from my GitHub using an API.
+
+✨ Explore my portfolio and discover the projects I'm passionate about!
 
 ## Technologies & tools
 
