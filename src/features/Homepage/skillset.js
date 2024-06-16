@@ -30,4 +30,6 @@ export const myFutureSkills = [
     "React Context",
     "JS classes",
     "Cypress",
+    "Jest",
+    "GraphQL"
 ];
