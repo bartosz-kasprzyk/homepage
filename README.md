@@ -1,3 +1,5 @@
+# <img width="30px" src="/public/icon192.png" /> Homepage
+
 <p align="center">
   <a href="https://bartosz-kasprzyk.github.io/homepage/">
     <img width="300px" src="/public/drawing.png" />
