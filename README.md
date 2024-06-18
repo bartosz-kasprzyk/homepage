@@ -1,5 +1,3 @@
-# <img width="30px" src="/public/icon192.png" /> Homepage
-
 <p align="center">
   <a href="https://bartosz-kasprzyk.github.io/homepage/">
     <img width="300px" src="/public/drawing.png" />
@@ -15,14 +13,11 @@
 
 </div>
 
-
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=bartosz-kasprzyk&label=Profile_views&color=A630B0&style=plastic&style=for-the-badge" alt="views-bartosz-kasprzyk" />
 </p>
 
-<div align="center">
-    <h1>𝔉𝔯𝔬𝔫𝔱𝔢𝔫𝔡 𝔇𝔢𝔳𝔢𝔩𝔬𝔭𝔢𝔯</h1>
-</div>
+# <img width="30px" src="/public/icon192.png" /> Homepage
 
 Hi there 👋
 
