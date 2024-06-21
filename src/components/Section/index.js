@@ -5,6 +5,7 @@ const Section = ({ title, body, skills }) => (
         <Header>
             {title}
         </Header>
+        
         <Body skills={skills}>
             <StyledList>
                 {body.map((skill) => (
