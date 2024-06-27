@@ -93,6 +93,7 @@ export const HeaderDescription = styled.div`
 `;
 
 export const HeaderButton = styled.button`
+    cursor: pointer;
     text-decoration: none;
     width: 154px;
     font-weight: 600;
