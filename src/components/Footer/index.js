@@ -1,8 +1,8 @@
 import { details } from "./iconDetails";
 import { FooterContact, FooterDescription, FooterIcons, FooterIntro, FooterLink, FooterSection } from "./styled";
 
-const Footer = () => (
-    <FooterSection>
+const Footer = ({ contact }) => (
+    <FooterSection ref={contact}>
         <FooterIntro>
             LET'S TALK
         </FooterIntro>

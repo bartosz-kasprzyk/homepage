@@ -2,7 +2,7 @@ import { HeaderSection, HeaderImage, HeaderContent, HeaderIntro, HeaderName, Hea
 import pic from "../../images/pic.png"
 import Switch from "./Switch";
 
-const Header = () => (
+const Header = ({ scrollToContact }) => (
     <HeaderSection>
         <Switch />
 
@@ -22,7 +22,7 @@ const Header = () => (
                 I'm eager to take on coding challenges and dive into new projects as I seek opportunities in the field. 🚀
             </HeaderDescription>
 
-            <HeaderButton href="mailto:bartosz.kasprzyk58@gmail.com" title="My email">
+            <HeaderButton onClick={scrollToContact} title="My socials">
                 <HeaderButtonIcon />
                 <HeaderButtonText>
                     Hire me

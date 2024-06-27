@@ -92,7 +92,7 @@ export const HeaderDescription = styled.div`
     }
 `;
 
-export const HeaderButton = styled.a`
+export const HeaderButton = styled.button`
     text-decoration: none;
     width: 154px;
     font-weight: 600;
