@@ -6,10 +6,10 @@ export const Container = styled.section`
     margin: 119px auto;
 
     @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) { 
-        margin: 68px 32px;
+        margin: 68px auto;
     }
 
     @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
-        margin: 34px 16px;
+        margin: 34px auto;
     }
 `
