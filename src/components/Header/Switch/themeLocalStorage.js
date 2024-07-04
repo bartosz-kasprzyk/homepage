@@ -5,4 +5,4 @@ export const saveThemeInLocalStorage = theme =>
 
 
 export const getThemeFromLocalStorage = () =>
-    JSON.parse(localStorage.getItem(localStorageKey)) || false;
+    JSON.parse(localStorage.getItem(localStorageKey)) || true;
