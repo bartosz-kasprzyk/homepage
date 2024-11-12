@@ -6,7 +6,7 @@ const Header = ({ scrollToContact }) => (
     <HeaderSection>
         <Switch />
 
-        <HeaderImage width="384" height="384" src={pic} alt="Profile picture" />
+        <HeaderImage src={pic} alt="Profile picture" />
 
         <HeaderContent>
             <HeaderIntro>
