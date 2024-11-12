@@ -23,6 +23,11 @@ export const Title = styled.a`
     font-weight: 700;
     color: ${({ theme }) => theme.projectHeader};
     text-decoration: none;
+    transition: 0.3s;
+
+    &:hover {
+        color: ${({ theme }) => theme.accent.light};
+    }
 
     @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
         font-size: 16px;
@@ -68,6 +73,11 @@ export const StyledLink = styled.a`
     align-self: baseline;
     text-decoration: none;
     border-bottom: 1px solid ${({ theme }) => theme.projectHighlight};
+    transition: 0.3s;
+
+    &:hover {
+        color: ${({ theme }) => theme.accent.light};
+    }
 
     @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
         font-size: 14px;
