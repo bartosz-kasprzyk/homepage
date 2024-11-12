@@ -17,7 +17,7 @@
   <img src="https://komarev.com/ghpvc/?username=bartosz-kasprzyk&label=Profile_views&color=A630B0&style=plastic&style=for-the-badge" alt="views-bartosz-kasprzyk" />
 </p>
 
-# <img width="30px" src="/public/icon192.png" /> Homepage
+# <img width="25px" src="/public/icon192.png" /> Homepage
 
 Hi there 👋
 
