@@ -23,12 +23,13 @@ export const mySkills = [
     "Git",
     "CSS Flexbox",
     "TypeScript",
+    "JS classes",
 ];
 
 export const myFutureSkills = [
+    "Angular",
     "Node.js",
     "React Context",
-    "JS classes",
     "Cypress",
     "Jest",
     "GraphQL"
