@@ -27,7 +27,7 @@ export const mySkills = [
 ];
 
 export const myFutureSkills = [
-    "Angular",
+    "React Native",
     "Node.js",
     "React Context",
     "Cypress",
