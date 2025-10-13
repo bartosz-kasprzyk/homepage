@@ -39,13 +39,25 @@ This [homepage](https://bartosz-kasprzyk.github.io/homepage/) is a showcase of m
 [![Git](https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 [![JavaScript ES6+](https://img.shields.io/badge/JavaScript_ES6+-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Jest](https://img.shields.io/badge/Jest-C21325.svg?style=for-the-badge&logo=jest&logoColor=white)](https://jestjs.io)
+[![Material UI](https://img.shields.io/badge/Material_UI-0081CB.svg?style=for-the-badge&logo=mui&logoColor=white)](https://mui.com)
+[![Next.js](https://img.shields.io/badge/Next.js-000000.svg?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org)
 [![NPM](https://img.shields.io/badge/NPM-CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com)
 [![React](https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org)
 [![React Redux](https://img.shields.io/badge/React_Redux-764ABC.svg?style=for-the-badge&logo=redux&logoColor=white)](https://react-redux.js.org)
 [![React Router](https://img.shields.io/badge/React_Router-CA4245.svg?style=for-the-badge&logo=react-router&logoColor=white)](https://reactrouter.com)
 [![Redux Saga](https://img.shields.io/badge/Redux_Saga-999999.svg?style=for-the-badge&logo=redux-saga&logoColor=white)](https://redux-saga.js.org)
+[![React Testing Library](https://img.shields.io/badge/React_Testing_Library-E33332.svg?style=for-the-badge)](https://testing-library.com/docs/react-testing-library/intro)
+[![REST API](https://img.shields.io/badge/REST_API-FF6C37.svg?style=for-the-badge)](https://restfulapi.net)
 [![Styled Components](https://img.shields.io/badge/Styled_Components-DB7093.svg?style=for-the-badge&logo=styled-components&logoColor=white)](https://styled-components.com)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
+[![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154.svg?style=for-the-badge)](https://tanstack.com/query/latest)
 [![Trello](https://img.shields.io/badge/Trello-0079BF.svg?style=for-the-badge&logo=trello&logoColor=white)](https://trello.com)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+
+
+
+
+
 
 
