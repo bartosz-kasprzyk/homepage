@@ -24,6 +24,7 @@ const PortfolioBody = () => {
           title={project.name
             .replace(/-/g, " ")
             .replace("react", "")
+            .replace("solvd laba", "")
             .replace("todo", "to-do")}
           description={project.description}
           demo={project.homepage}
