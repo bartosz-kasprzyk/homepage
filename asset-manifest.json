@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/homepage/static/js/main.c029efdf.js",
+    "main.js": "/homepage/static/js/main.b8e31221.js",
     "static/js/787.c096999d.chunk.js": "/homepage/static/js/787.c096999d.chunk.js",
     "static/media/pic.png": "/homepage/static/media/pic.172f0930d27e98b7f6b3.png",
-    "static/media/Brightness.svg": "/homepage/static/media/Brightness.5d51d51a2ad1a105e18572df695db73d.svg",
-    "static/media/Instagram_black.svg": "/homepage/static/media/Instagram_black.482178f11daf74c9af1325a35cc811ca.svg",
-    "static/media/Github_black.svg": "/homepage/static/media/Github_black.38f82b9c67d114dae62cbb3463ab76d1.svg",
+    "static/media/Brightness.svg": "/homepage/static/media/Brightness.9ce6609dd4e48830ffd4811cc01d4e81.svg",
+    "static/media/Instagram_black.svg": "/homepage/static/media/Instagram_black.00c1e5675113d08b43277403eb7e4345.svg",
+    "static/media/Github_black.svg": "/homepage/static/media/Github_black.5b0ee1a8fe10d3909333adeb423b7c79.svg",
     "index.html": "/homepage/index.html",
-    "static/media/Linkedin_black.svg": "/homepage/static/media/Linkedin_black.18cea7eff1e7297b813fb0fd470d850a.svg",
+    "static/media/Linkedin_black.svg": "/homepage/static/media/Linkedin_black.e299f4abfb309a1553b41009af3f3afd.svg",
     "static/media/Danger.svg": "/homepage/static/media/Danger.acdfb5442e7567a5515bc85c81370f8d.svg",
-    "static/media/Message.svg": "/homepage/static/media/Message.b1e8eddc08c9d90a96f4639353e48a0a.svg",
-    "static/media/Facebook_black.svg": "/homepage/static/media/Facebook_black.7add158325c109e11d30ffaf9449ea21.svg",
-    "static/media/icon-spinner.svg": "/homepage/static/media/icon-spinner.88a075cf3a7f1af15999cb03bb3a0360.svg",
-    "static/media/Ellipse.svg": "/homepage/static/media/Ellipse.980ae4858b964d3619f772d656962f21.svg",
-    "main.c029efdf.js.map": "/homepage/static/js/main.c029efdf.js.map",
+    "static/media/Message.svg": "/homepage/static/media/Message.5ea699f008ae574bc1e9a3ca62221176.svg",
+    "static/media/Facebook_black.svg": "/homepage/static/media/Facebook_black.c4041d4fd496fc27c74c452f19282886.svg",
+    "static/media/icon-spinner.svg": "/homepage/static/media/icon-spinner.f0cf9f6aef365567ad9b9a0d34b8b760.svg",
+    "static/media/Ellipse.svg": "/homepage/static/media/Ellipse.74150bf0d3111b948692ecdb3ff238fa.svg",
+    "main.b8e31221.js.map": "/homepage/static/js/main.b8e31221.js.map",
     "787.c096999d.chunk.js.map": "/homepage/static/js/787.c096999d.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.c029efdf.js"
+    "static/js/main.b8e31221.js"
   ]
 }
