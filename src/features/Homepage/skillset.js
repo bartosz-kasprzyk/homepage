@@ -34,6 +34,7 @@ export const mySkills = [
 
 export const myFutureSkills = [
   "Node.js",
+  "NestJS",
   "React Native",
   "Cypress",
   "GraphQL",
