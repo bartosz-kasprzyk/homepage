@@ -1,6 +1,13 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 
+const EXCLUDED_REPOS = [
+  "todo-list",
+  "currency-converter",
+  "bartosz-kasprzyk",
+  "homepage",
+];
+
 export const useRepositoryData = () => {
   const url = "https://api.github.com/users/bartosz-kasprzyk/repos";
 
@@ -13,7 +20,9 @@ export const useRepositoryData = () => {
     const getRepositoryData = async () => {
       try {
         const response = await axios.get(url);
-        const filteredData = response.data.filter((item) => item.size > 5000);
+        const filteredData = response.data.filter(
+          (repo) => !EXCLUDED_REPOS.includes(repo.name)
+        );
         const sortedData = filteredData.sort(
           (a, b) => new Date(b.created_at) - new Date(a.created_at)
         );
