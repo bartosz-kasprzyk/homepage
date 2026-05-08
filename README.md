@@ -33,7 +33,9 @@ This [homepage](https://bartosz-kasprzyk.github.io/homepage/) is a showcase of m
 
 ## Technologies & tools 🛠️
 
+[![Claude AI](https://img.shields.io/badge/Claude%20AI-D97757?style=for-the-badge&logo=claude&logoColor=white)](https://claude.ai/)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Cursor](https://img.shields.io/badge/Cursor-5E5E5E?style=for-the-badge&logo=cursor&logoColor=white)](https://cursor.com/)
 [![Create React App](https://img.shields.io/badge/Create_React_App-09D3AC.svg?style=for-the-badge&logo=create-react-app&logoColor=white)](https://create-react-app.dev)
 [![Figma](https://img.shields.io/badge/Figma-69D3AC.svg?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com)
 [![Git](https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com)
